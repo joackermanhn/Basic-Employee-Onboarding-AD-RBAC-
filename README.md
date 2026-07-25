@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+* The Problem in this project was related to a fictional company called Northstar Medical Group. They started off as a smaller company and were using an MSP to manage their Identity Lifecycle workflows as they didnt have the means to manage it themselves. Initially it worked fine, but as the company grew they started to notice issues that couldn't be allowed to remain. Users either had too much access or not enough, there were NO RBAC policies in place leading to audit and HIPPA risks. There was no organization and when employees left the company sometimes it would be months before their accounts were disabled. As for new hires sometimes it would take days to get them the proper access as noobody documented or knew the process to do so.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+* The solution was to build out a basic employee onboarding process in active directory. I setup RBAC to ensure users only got access to the systems and information required for their roles. To simulate one such issue, i created a mock ticket where a user was provisioned with the incorrect level of access. I started by creating the domain from scratch by adding the active directory roles to the server and promoting it to a domain controller. I then added the OU's to organize the domain by department, after which i added the security group for each OU so when I added the users through powershell I could ensure they were added to the appropriate security groups ensuring they were provisioned properly.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -16,6 +16,7 @@
 * UTM
 * RBAC
 * GitHub
+* Powershell
 
 ## Project Timeline
 * Day 1: Domain creation and domain controller promotion
@@ -26,5 +27,5 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* Solved a mock ticket where a user was given incorrect access
+* I fully documented my steps end-to-end
