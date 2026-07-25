@@ -1,5 +1,3 @@
-# Basic-Employee-Onboarding-AD-RBAC-
-Active Directory infrastructure rebuild for a fictional company called “Northstar Medical Group”. Includes domain setup, organizational structure, user provisioning, RBAC implementation, and incident resolution.
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
@@ -14,11 +12,10 @@ Active Directory infrastructure rebuild for a fictional company called “Norths
 ## Tools Used
 * Windows Server
 * Active Directory Domain Services
-* VMware Workstation Pro
+* VirtualBox
 * UTM
 * RBAC
 * GitHub
-* Powershell
 
 ## Project Timeline
 * Day 1: Domain creation and domain controller promotion
