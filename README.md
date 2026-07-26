@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/c5951330-54c1-40c9-91a4-2bd1f7d4c97f
 * UTM
 * RBAC
 * GitHub
-* Powershell
+* PowerShell
 
 ## Project Timeline
 * Day 1: Domain creation and domain controller promotion
