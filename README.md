@@ -7,7 +7,7 @@
 * The solution was to build out a basic employee onboarding process in active directory. I setup RBAC to ensure users only got access to the systems and information required for their roles. To simulate one such issue, i created a mock ticket where a user was provisioned with the incorrect level of access. I started by creating the domain from scratch by adding the active directory roles to the server and promoting it to a domain controller. I then added the OU's to organize the domain by department, after which i added the security group for each OU so when I added the users through powershell I could ensure they were added to the appropriate security groups ensuring they were provisioned properly.
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
+https://github.com/user-attachments/assets/c5951330-54c1-40c9-91a4-2bd1f7d4c97f
 
 ## Tools Used
 * Windows Server
