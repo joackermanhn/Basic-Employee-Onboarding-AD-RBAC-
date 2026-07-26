@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/c5951330-54c1-40c9-91a4-2bd1f7d4c97f
 ## Tools Used
 * Windows Server
 * Active Directory Domain Services
-* VirtualBox
+* VMware Workstation Pro
 * UTM
 * RBAC
 * GitHub
